@@ -48,12 +48,16 @@ cd server
 npm i
 nodemon server
 ```
-Create .env and add mongoDB connection:
+Create a db in localhost or Atlas  
+Create .env and add the url:  
 ```
-mongodb_url =
+mongodb_url = mongodb://localhost:27017/db_name
  ```
-
-You can get the data from StaticData.js
+Alternatively, change the connection in <span style="color:red">dbConfig.js</span>  
+```
+mongoose.connect('mongodb://localhost:27017/mern_portfolio');
+```
+After refreshing the db, copy the data stored in <span style="color:red">client/staticData.js</span> into the created entities    
 # TODO
 Login security  
 Contact form with backend  
