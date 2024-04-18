@@ -59,7 +59,7 @@ Login security
 Contact form with backend  
 Frontend test  
 Backend test  
-Add inmersive experience
+Add inmersive experience  
 Responsive Design  
 
 
