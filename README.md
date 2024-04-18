@@ -1,6 +1,7 @@
 # MERN PORTFOLIO
 
 ![](/client/public/image0.png)
+![](/client/public/image6.png)
 
 # Technologies 
 ### MERN 
